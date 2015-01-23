@@ -2,7 +2,7 @@ library(jiebaR)
 library(lsa)
 source(file="myTextmatrix.R")
 source(file="indexCosine.R")
-STOPWORDS =read.csv(file = "D:\\RWorkspaces\\Index Transformation\\STOPWORDS.csv",header=FALSE,fileEncoding="utf-8")
+STOPWORDS =read.csv(file = "Data\\STOPWORDS.csv",header=FALSE,fileEncoding="utf-8")
 STOPWORDS <- na.omit(as.vector(STOPWORDS[,2]))
 
 #1 Parameter and file definition
